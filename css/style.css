@@ -145,7 +145,7 @@ p{
 	padding-left: 40px;
 }
 .card{
-	margin-top: 90px;
+	margin-top: 30px;
 }
 .next{
 	font-size: 15px;
@@ -191,4 +191,208 @@ p{
 	padding-left: 240px;
 	padding-bottom: 30px;
 	padding-top: 40px;
+}
+
+.img{
+	align-content: center;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+.info p{
+	font-size: 15px;
+	color:var(--f7-navbar-text-color);
+	font-weight: 200;
+	text-align: center;
+	margin: 25px 0px;
+	padding: 20px 0px;
+}
+
+.precio p{
+	font-size: 15px;
+	color:var(--f7-navbar-text-color);
+	font-weight: 200;
+	text-align: center;
+	margin: 3px;
+	padding: 20px 0px;
+}
+.social{
+	color: #000000;
+	font-size: 15px;
+	font-weight: 200;
+	text-align: center;
+	margin: 3px;
+	padding: 20px 0px;
+}
+.social h3{
+	font-size: 15px;
+	color: #000000;
+	font-weight: 500;
+	text-align: center;
+	margin: 3px;
+	padding: 10px 0px;
+}
+.social p{
+	font-size: 15px;
+	color: #000000;
+	font-weight: 200;
+	text-align: center;
+	margin: 3px;
+	padding: 10px 0px;
+}
+.aboutus-header{
+	align-content: center;
+	text-align: center;
+}
+.aboutus-header h3{
+	padding: 20px 0px;
+	font-size: 10px;
+}
+.aboutus{
+	padding: 80px 15px;
+	margin: 3px;
+}
+.jen{
+	align-content: center;
+	text-align: center;
+	padding-left: 25px;
+	padding-top:40px;
+}
+.aboutus h2{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+.aboutus h3{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 25px;
+	font-size: 10px;
+	color:var(--f7-navbar-text-color);
+	font-weight: 200;
+	margin: 3px;
+}
+.ouai h2{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin: 3px;
+}
+.ouai p{
+	text-align: center;
+	padding: 10px 25px;
+	font-size: 10px;
+	color:var(--f7-navbar-text-color);
+	font-weight: 200;
+	margin: 3px;
+}
+.filler{
+	padding: 25px 25px;
+}
+.footer{
+	background-color: #000000;
+	text-align: center;
+	align-content: center;
+	padding-top: 30px;
+}
+.footer h4{
+	font-size: 08px;
+	color: #FFFFFF;
+	font-weight: 200;
+	text-align: left;
+}
+.footer p{
+	font-size: 06px;
+	color: #FFFFFF;
+	font-weight: 300;
+	padding-bottom: 2px;
+}
+.footer h3{
+	font-size: 08px;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+.map{
+	align-content: center;
+}
+
+.social{
+	background-color: var(--f7-theme-color);
+}
+.profilepic{
+	align-content: center;
+	text-align: center;
+	font-size: 50px;
+	padding: 15px 15px;
+}
+
+.profile h1{
+	font-color:var(--f7-navbar-text-color);
+	font-weight: 800;
+	font-size: 30px;
+	text-align: left;
+	margin: 3px;
+	padding: 15px 15px;
+}
+
+.profile h2{
+	font-color:var(--f7-navbar-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	margin: 3px;
+	padding: 15px 15px;
+}
+
+.profile h3{
+	font-color:var(--f7-navbar-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+	margin: 3px;
+	padding: 5px 15px;
+}
+
+.profile p{
+	font-size: 10px;
+	color:var(--f7-navbar-text-color);
+	font-weight: 200;
+	text-align: left;
+	margin: 3px;
+	padding: 5px 15px;
+}
+
+.sign-up{
+	z-index: 12000;	
+}
+.sign-up .page-content{
+	margin-top: 0;
+}
+
+
+.login-screen h2,
+.login-screen-page h2{
+	color: var(-navbar-text-color);
+	font-weight: 700;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+.login-screen h4,
+.login-screen-page h4{
+	font-weight: 500;
+	font-size: 12px;
+	margin-top: 0;
+}
+
+.login-screen p,
+.login-screen-page p{
+	text-align: center;
+	align-content: center;
+}
+
+.login-screen-close{
+	text-align: center;
+	align-content: center;
+	color: var(--f7-navbar-text-color) !important;
 }

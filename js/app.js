@@ -27,6 +27,71 @@ var app = new Framework7({
 		path: '/shop2/',
     	url: 'shop2.html',
     	name: 'shop2',
+  		},
+		{
+		path: '/finehairprod/',
+    	url: 'finehairprod.html',
+    	name: 'finehairprod',
+  		},
+		{
+		path: '/prod2/',
+    	url: 'prod2.html',
+    	name: 'prod2',
+  		},
+		{
+		path: '/prod3/',
+    	url: 'prod3.html',
+    	name: 'prod3',
+  		},
+		{
+		path: '/prod4/',
+    	url: 'prod4.html',
+    	name: 'prod4',
+  		},
+		{
+		path: '/prod5/',
+    	url: 'prod5.html',
+    	name: 'prod5',
+  		},
+		{
+		path: '/prod6/',
+    	url: 'prod6.html',
+    	name: 'prod6',
+  		},
+		{
+		path: '/prod7/',
+    	url: 'prod7.html',
+    	name: 'prod7',
+  		},
+		{
+		path: '/prod8/',
+    	url: 'prod8.html',
+    	name: 'prod8',
+  		},
+		{
+		path: '/prod9/',
+    	url: 'prod9.html',
+    	name: 'prod9',
+  		},
+		{
+		path: '/prod10/',
+    	url: 'prod10.html',
+    	name: 'prod10',
+  		},
+		{
+		path: '/aboutus/',
+    	url: 'aboutus.html',
+    	name: 'aboutus',
+  		},
+		{
+		path: '/profile/',
+    	url: 'profile.html',
+    	name: 'profile',
+  		},
+		{
+		path: '/sign-up/',
+    	url: 'sign-up.html',
+    	name: 'sign-up',
   		}
 	],
 	dialog: {
@@ -58,7 +123,7 @@ $$('#btnLogin').on('click', function (e) {
         $$('#form-login').trigger('reset');	
         app.loginScreen.close('#login');
 		
-		app.dialog.alert('¡ Welcome to Rungran Shop !');
+		app.dialog.alert('Welcome to OUAI mobile shop');
     }
 	
 });
